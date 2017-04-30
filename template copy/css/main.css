@@ -1,0 +1,37 @@
+body{
+	text-align: center;
+}
+
+.box{
+	display: inline-block;
+	height: 70px;
+	width: 70px;
+}
+
+.red{
+	background-color: purple;
+}
+
+.orange{
+	background-color: brown;
+}
+
+.yellow{
+	background-color: blue;
+}
+
+.green{
+	background-color: yellow;
+}
+
+@media screen and (max-width: 500px){
+	.orange, .yellow{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	.box{
+		width: 100%;
+	}
+} 
